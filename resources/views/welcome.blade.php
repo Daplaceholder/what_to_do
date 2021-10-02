@@ -20,10 +20,11 @@
             }
         </style>
     </head>
-    <body>
-        <div id="app">
-            <app></app>
+    <body style="height: 100vh;">
+        
+        <div id="app" style="height:100%;  display: flex;align-items: flex-end;">
+            <app ></app>
         </div>
     </body>
-    <script src="{{ mix('js/app.js') }}"></script>  
+    <script src="{{mix('js/app.js')}}"></script>
 </html>

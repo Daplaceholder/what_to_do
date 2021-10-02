@@ -20,8 +20,9 @@
             }
         </style>
     </head>
-    <body >
-        <div id="app">
+    <body style="height: 100vh;">
+        
+        <div id="app" style="height:100%;  display: flex;align-items: flex-end;">
             <app ></app>
         </div>
     </body>
