@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+}
+
+body {
+	background: #eee;
+}
+.main {
+	max-width: 1200px;
+	margin: auto;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	
+}
+.logo {
+	width: 140px;
+	float: left;
+	padding: 10px 0px 0px 0px;
+}
+
+nav ul{
+	list-style: none;
+	float: right;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	line-height: 130px;
+	font-size: 16px;
+}
+
+nav ul li a:hover {
+	background: rgba(0,0,0,0.2);
+	border-radius: 6px;
+}
+
+nav ul li a.active {
+	background: red;
+	color: #fff;
+	border-radius: 6px;
+}
+section {
+	background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url('../photos/shipping.jpeg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+}
