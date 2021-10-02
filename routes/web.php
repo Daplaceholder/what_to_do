@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('shipment');
+})->name('shipment');
+
+Route::get('/ships', function () {
+    return view('ships');
+})->name('ships');
+
+Route::get('/crew', function () {
+    return view('crew');
+})->name('crew');
+
+Route::get('/routes', function () {
+    return view('routes');
+})->name('routes');
+
+Route::get('/works', function () {
+    return view('works');
+})->name('works');
+
+Route::get('/duty', function () {
+    return view('duty');
+})->name('duty');
